@@ -1,0 +1,136 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(187, 144, 88);
+    margin: 0px;
+    padding: 0px;
+    background: url('ft1.jpg');
+    height: 180px;
+    
+}
+
+
+.contact{
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.left{
+    font-size: 30px;
+    color: rgb(247, 248, 244);
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 45px;
+
+}
+.left img{
+    
+    width: 130px;
+}
+
+.mid{
+    display: block;
+    width: 80%;
+    margin: 4px auto;
+    
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 20px;
+}
+
+.navbar{
+    background-color: rgb(5, 5, 5);
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 30px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px;
+    margin: 40px;
+
+}
+
+.navbar li a:hover{
+    background-color: rgb(166, 109, 240);
+}
+.btn{
+    margin: 0px 10px;
+    background-color: rgb(249, 250, 242);
+    color: rgb(68, 34, 223);
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: beige;
+}
+
+h1{
+    font-size: 100px;
+    color: rgb(45, 205, 233);
+    text-align: center;
+    margin: 100px;
+}
+
+marquee{
+    font-size: 30px;
+    color: rgb(9, 243, 98);
+}
+
+.container{
+    display: inline-block;
+    color: rgb(229, 241, 120);
+    font-size: 40px;
+    margin: 70px;
+    padding: auto;
+    width: 500px;
+
+}
+
+.p{
+    color: rgb(252, 248, 251);
+    text-decoration:none;
+    font-size: 30px;
+    width:180px;
+    background-color: red;
+    margin: 60px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.form{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+p{
+    text-align: center;
+    color: rgb(241, 237, 241);
+    font-size: 30px;
+}
+
+.form-group input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.form button{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
