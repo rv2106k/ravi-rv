@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        background: url("https://images.unsplash.com/photo-1526495124232-a04e1849168c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxuaWdodHx8fHx8fDE2OTI4NTMyMzA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080")no-repeat center center/cover;
+
+    }
+
+    header::before {
+        
+        contain: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.5;
+
+
+    }
+
+    .navigation {
+        font-size: 20px;
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        padding: 35px 25px;
+    }
+
+    section::before {
+        content: "This is a digital marketing topics";
+    }
+
+    section {
+        height: 344px;
+        margin: 4px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section::after {
+        content: "Thanks for reading.";
+    }
+
+    h1 {
+        font-size: 3rem;
+        color: aqua;
+    }
+
+    p {
+        font-size: 15px;
+        color: blue;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item1">Home</li>
+                <li class="item2">About</li>
+                <li class="item3">Servies</li>
+                <li class="item4">Contact Us</li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Digital Marketing</h1>
+            <p>Digital marketing is the component of marketing that uses the Internet and online-based digital
+                technologies such as desktop computers, mobile phones and other digital media and platforms to promote
+                products and services.[2][3] Its development during the 1990s and 2000s changed the way brands and
+                businesses use technology for marketing. As digital platforms became increasingly incorporated into
+                marketing plans and everyday life,[4] and as people increasingly used digital devices instead of
+                visiting physical shops,[5][6] digital marketing campaigns have become prevalent, employing combinations
+                of search engine optimization (SEO), search engine marketing (SEM), content marketing, influencer
+                marketing, content automation, campaign marketing, data-driven marketing, e-commerce marketing, social
+                media marketing, social media optimization, e-mail direct marketing, display advertising, e-books, and
+                optical disks and games have become commonplace.</p>
+        </section>
+    </header>
+</body>
+
+</html>

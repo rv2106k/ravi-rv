@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in css</title>
+</head>
+<style>
+    h1{ 
+        color: brown;
+        background-color: rgb(221, 221, 226);
+        text-align: center;
+    }
+    div p{
+        color: rgb(212, 241, 105);
+        background-color: rgb(226, 43, 58);
+        font font-weight: bold;
+    }
+
+    div li p{
+        color: rgb(231, 102, 43);
+        background-color: aquamarine;
+    }
+    div > p{
+        color: aqua; 
+    }
+
+    div + p{
+        color: blue;
+        background-color: beige;
+    }
+</style>
+<body>
+    <h1>This is more selectors.</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p> this is another paragraph inside li</p></li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>this is another paragraph</p>
+    </div>
+    <p>this is outermosrt paragraph</p>
+</body>
+</html>

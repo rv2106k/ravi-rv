@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid layout</title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer'
+            ;
+        }
+
+        .item {
+            border: 2px solid rgb(35, 238, 17);
+            background-color: aqua;
+            padding: 12px 25px;
+
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            HOME ABOUT GALLARY CONTACT US
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sapiente molestias quidem,
+            consequatur ratione velit possimus totam labore est dolor ipsam, iste voluptate praesentium distinctio
+            voluptatibus quisquam voluptas laudantium illum. Mollitia quo dolorem asperiores iste nobis harum ipsa
+            itaque adipisci nostrum quisquam incidunt officia, consequuntur sunt unde laborum hic a quia cumque rerum
+            rem magnam illum nihil quas excepturi! Dicta nihil sequi omnis voluptas eos consectetur quae suscipit autem
+            non. Deserunt non blanditiis consectetur ad ipsum quis officia minima iusto, animi reprehenderit ea iste
+            possimus ipsam dolore esse cupiditate, vitae est suscipit perspiciatis expedita fugit nulla dolorum
+            doloribus? Atque, expedita.
+        </div>
+        <div id="aside" class="item">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ab, adipisci mollitia magnam veritatis
+            sunt quam perferendis obcaecati velit aspernatur maiores assumenda doloremque quos labore facere aperiam sit
+            cum perspiciatis ea necessitatibus hic? Tempora iste exercitationem quaerat repellat, facilis natus
+            doloribus porro illum illo animi suscipit ad id blanditiis fugiat libero sequi? Eligendi qui voluptate eius
+            numquam dolorem atque sint?
+        </div>
+        <footer class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit veritatis quo rerum fuga tempore eius vitae quaerat voluptatem soluta commodi?</footer>
+        <!-- <div class="item">Item1</div>
+        <div class="item">Item2</div>
+        <div class="item">Item3</div>
+        <div class="item">Item4</div>
+        <div class="item">Item5</div>
+        <div class="item">Item6</div>
+        <div class="item">Item7</div>
+        <div class="item">Item8</div>
+        <div class="item">Item9</div>
+        <div class="item">Item10</div>
+        <div class="item">Item11</div>
+        <div class="item">Item12</div>
+        <div class="item">Item13</div>
+        <div class="item">Item14</div> -->
+    </div>
+</body>
+
+</html>

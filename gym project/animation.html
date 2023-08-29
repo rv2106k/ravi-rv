@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and Animations</title>
+</head>
+<style>
+    .container {
+        background-color: aqua;
+    }
+
+    .box {
+        background-color: orange;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: Ravi;
+        animation-duration: 2s;
+        animation-iteration-count: 5;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-direction: alternate-reverse;
+
+    }
+
+    @keyframes Ravi {
+        from {
+            width: 100px;
+        }
+
+        to {
+            width: 800px;
+        }
+
+    }
+
+    .box1 {
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        animation-name: Ravi1;
+        animation-duration: 2s;
+        animation-iteration-count: 5;
+        /* animation-fill-mode: forwards; */
+        /* animation-timing-function: ease-in-out; */
+        /* animation-delay: 0s; */
+        /* animation-direction: alternate; */
+
+    }
+
+    @keyframes Ravi1 {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        25% {
+            top: 250px;
+            left: 0px;
+        }
+
+        75% {
+            top: 250px;
+            left: 250px;
+        }
+
+        100% {
+            top: 0px;
+            left: 250px;
+        }
+
+    }
+
+    .box2 {
+        background-color: green;
+        width: 250px;
+        height: 250px;
+        position: relative;
+        /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode;(properties of animation can be set using shorthand) */
+        animation: Ravi2 4s ease-in 2s 12 reverse;
+
+    }
+
+    @keyframes Ravi2 {
+        0% {
+            top: 0px;
+            left: 0px;
+        }
+
+        25% {
+            top: 250px;
+            left: 0px;
+        }
+
+        75% {
+            top: 250px;
+            left: 250px;
+        }
+
+        100% {
+            top: 0px;
+            left: 250px;
+        }
+
+        
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+        <div class="box1">
+            This is box1
+        </div>
+        <div class="box2">
+            This is box2
+        </div>
+
+    </div>
+</body>
+
+</html>

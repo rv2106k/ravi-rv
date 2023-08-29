@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript string function</title>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+    <script>
+        var str = "This is a string";
+        console.log(str);
+        
+        //first occurance of substring
+
+        var position = str.indexOf('a')
+        console.log(position);
+
+        //last occurance of substring
+        var position = str.lastIndexOf('str');
+        console.log(position);
+
+        //substring from a string
+        // var substr = str.slice(1,9); //(slice take all the postive and negative integers)
+        // console.log(substr);
+
+        var substr = str.substring(1,6); //(substring donot take negative integers)
+        console.log(substr);
+
+        var substr1 = str.substr(1,4); //(it take the length of the line that we take)
+        console.log(substr1);
+
+        var replaced = str.replace('string', 'Ravi');
+        console.log(str);
+        console.log(replaced);
+
+        console.log(str.toLocaleUpperCase());
+
+        console.log(str.toLocaleLowerCase()); 
+
+        var newString = str.concat(' New String');
+        console.log(newString);
+        
+        var strwithWhitespaces = "   This contains   whitespaces   ";
+        console.log(strwithWhitespaces);
+        console.log(strwithWhitespaces.trim());
+
+        var char1 = str.charAt(6);
+        console.log(char1);
+
+        var char2 = str.charCodeAt(2); //not very important
+        console.log(char2);
+
+        console.log(str[2]);
+
+    </script>
+</body>
+</html>
